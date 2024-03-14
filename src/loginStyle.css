@@ -1,0 +1,108 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #64ffee;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header .brandLogo img {
+    height: 80px;
+    width: auto;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.form-content h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #64ffee;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #37b9ff;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    color: #666;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+#toggle-signup {
+    background-color: #f0506e;
+    margin-top: 20px;
+    padding: 12px 20px;
+    /* Adjusted padding */
+    border-radius: 5px;
+    /* Added border radius */
+    border: none;
+    /* Added border style */
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#toggle-signup:hover {
+    background-color: #ff6b85;
+}

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+main {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    height: auto;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.petImage {
+    margin-top: 25px;
+    text-align: center;
+    height: 350px;
+}
+
+.petImage img {
+    width: 700px;
+    height: auto;
+}
+
+#petTable {
+    font-family: 'Poppins', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#petTable td,
+#petTable th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#petTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#petTable tr:hover {
+    background-color: #ddd;
+}
+
+#petTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+section {
+    display: flex;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    height: 65px;
+    margin: -15px 0 10px 0;
+    width: 500px;
+    outline: none;
+    color: #000000;
+    border: solid black;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: rgb(163, 163, 163);
+}
+
+.button:hover {
+    background: green;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="checkbox"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button[type="submit"],
+button[type="button"] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button[type="button"] {
+    background-color: #f44336;
+    color: #fff;
+}
+
+button[type="button"]:hover {
+    background-color: #da190b;
+}
+
+/* Close button */
+.close {
+    color: #888;
+    float: right;
+    font-size: 28px;
+    /* Increase the size of the cross button */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Form input fields */
+/* Form input styles */
+input[type="text"],
+input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    /* Adjust padding to make the input fields smaller */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* Add border-radius to make the input fields rounded */
+    font-size: 14px;
+    /* Adjust font size to make the text smaller */
+    vertical-align: middle;
+}
+
+/* Close button */
+.close {
+    color: #888;
+    float: right;
+    font-size: 28px;
+    /* Increase the size of the close button */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
