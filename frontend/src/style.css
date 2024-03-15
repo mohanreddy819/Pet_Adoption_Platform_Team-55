@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #abf5ec;
+}
+
+
+.header {
+    padding: 0%;
+    background-color: #64ffee;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid blue;
+}
+
+.header .brandLogo img {
+    width: auto;
+    height: 120px;
+    margin-left: 40px;
+    border-radius: 60%;
+}
+
+.header input {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    /* background: rgb(245, 193, 255); */
+    border-radius: 8px;
+}
+
+.header button {
+    height: 40px;
+    width: 100px;
+}
+
+
+.header #cityList {
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    background-color: rgb(237, 37, 37);
+    color: white;
+    border-radius: 5px;
+}
+
+.header .user img {
+    width: auto;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.header .user img:hover {
+    background-color: greenyellow;
+    border-radius: 25px;
+}
+
+/* Header ends */
+
+/* Slideshow starts */
+.slideshow {
+    width: 105vh;
+    height: 50vh;
+    /* position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%; */
+    margin-left: 21%;
+    overflow: hidden;
+    border: 20px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
+}
+
+.slider {
+    width: 105vh;
+    height: 50vh;
+    display: flex;
+    animation: slide 16s infinite;
+    white-space: normal;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    55% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-200%);
+    }
+
+    80% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+.slideshow img {
+    width: 105vh;
+    height: 50vh;
+}
+
+.filter {
+    background-color: rgb(103, 255, 149);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 20vh;
+}
+
+.filterBody {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.genreButtons button,
+.lang select {
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(75, 103, 245);
+    text-align: center;
+    color: #e8d55a;
+    font-size: 15px;
+    border-color: aqua;
+}
+
+.genreButtons button:hover {
+    background-color: green;
+}
+
+/* Filter ends */
+
+/* Gallert starts */
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    justify-content: space-around;
+    row-gap: 60px;
+}
+
+.gallery img {
+    height: 200px;
+    width: auto;
+}
+
+.gallery h3 {
+    color: rgb(129, 10, 255);
+    font-size: 30px;
+}
+
+.gallery button {
+    width: 100px;
+    height: 40px;
+}
+
+.gallery button:hover {
+    background-color: green;
+    color: yellow;
+}
+
+/* Gallery ends */
+
+/* Footer starts */
+footer {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    background-color: #64ffee;
+    border-top: 4px solid blue;
+}
+
+footer img {
+    width: auto;
+    height: 130px;
+    border-radius: 60%;
+}
+
+footer h1 {
+    font-family: monospace;
+    color: red;
+    font-size: 23px;
+}
